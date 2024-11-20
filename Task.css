@@ -1,0 +1,26 @@
+.str {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.bg-info {
+    white-space: pre-wrap; /* For wrapping long texts */
+    text-align: center;
+}
+.btn {
+    margin: 10px 0;
+}
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    .align-self-stretch {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    .btn {
+        width: 100%;
+    }
+}
